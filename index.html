@@ -1,0 +1,56 @@
+<html>
+
+<head>    
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>LOH4.0</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="tab-header">
+            <div id="tabSignUp" class="active"> Sign Up </div>
+            <div id="tabSignIn" class="unactive"> Sign In </div>
+        </div> 
+        <div class="tab-content">
+            <div id="tabBodySignUp" class="tab-body active">
+                <div class="form-element">
+                    <input id="inputEmail" type="text" placeholder="Email">
+                </div>
+                <div class="form-element">
+                    <input id="inputUsername" type="text" placeholder="Username">
+                </div>
+                <div class="form-element">
+                    <input id="inputPassword" type="password" placeholder="Password">
+                </div>
+                <div class="form-element">
+                    <input id="inputConfirmPassword" type="password" placeholder="Confirm password">
+                </div>
+                <div class="form-element">
+                    <button id="btnSignUp">Sign Up</button>
+                </div>
+            </div>
+            <div id="tabBodySignIn" class="tab-body unactive">
+                <div class="form-element">
+                    <input id="emailUsername" type="text" placeholder="Email / Username">
+                </div>                
+                <div class="form-element">
+                    <input id="password" type="password" placeholder="Password">
+                </div>         
+                <div class="form-element">
+                    <input type="checkbox" id="remember_me">
+                    <label for="remember_me">Remember me</label>
+                </div>       
+                <div class="form-element">
+                    <button id="btnSignIn">Sign In</button>
+                </div>
+            </div>
+        </div>               
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
